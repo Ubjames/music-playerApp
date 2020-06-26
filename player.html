@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="player.css">
+    <script defer src="player.js"></script>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="header"></div>
+              <div class="forborder" >
+                  <img src=" " alt="" width="150px" id="poster-shadow">
+              </div>
+      <p class="title">
+        <marquee scrolldelay="300"> </marquee>
+      </p> 
+        <div class="controls">
+          
+            <button class="shuffle"><img src="icons/shuffle.png" width="20px"></button>
+            <button class="decorate previous"><img src="icons/previous.png" alt="" width="20px"></button>
+            <button class="big "><img src="icons/play.png" id="toggle" alt=""></button><!--
+            <button class="big "><img src="icons/pause.png" id="toggle" alt=""></button>-->
+            <button class="decorate next"><img src="icons/next.png" alt="" width="20px"></button>
+            <button class=""><img src="icons/loop.png" alt="" width="20px"></button>
+      </div>
+      <!-- <div class="play-list"> </div> -->
+    <div class="song-menu"> 
+  
+    </div>
+    
+    <!-- <script>
+      console.log(songs);
+      songs_arr = songs;
+      song_playlist = '';
+      for (let i = 0; i < songs_arr.length; i++) {
+        const element = songs_arr[i];
+        console.log(element);
+        song_playlist += element+'<hr>';
+        
+      }
+      document.getElementByClassName("song-menu").innerHTML = song_playlist;
+      
+    </script> -->
+    
+    
+  </div>  
+
+</body>
+    
+
+</html>
