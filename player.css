@@ -1,0 +1,141 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color:rgb(201, 201, 202);
+}
+
+.container{
+    position: relative;
+    box-shadow: 0 0 8px #8a8a8a;
+    border-radius: 20px;
+    height:200px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 20%;
+    overflow: hidden;
+}
+marquee{
+    width: 100%;
+    text-shadow: 0 0 5px black;
+}
+
+
+.controls{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8em;
+    height: 4.5em;
+    margin-top: 7.5em;
+
+}
+
+
+button{
+    box-sizing: border-box; 
+    border-radius: 100%;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+    border: none;
+    background-color: inherit;
+    margin: 120px 10px ;
+    padding: 8px;
+    }
+button:focus{
+    outline:none;
+}
+
+button:active{
+    box-sizing: border-box; 
+    /* border-radius: 50px; 
+    /* background: #d6d6d6; 
+    box-shadow: inset 5px 5px 10px #808080, 
+                 -5px -5px 10px #f6f6f6;
+}
+
+.big{
+    border: 2px solid #adadad;
+    box-sizing: border-box; 
+    border-radius: 100%;
+    box-shadow:  5px 5px 10px #808080, 
+                 -5px -5px 10px #f6f6f6;
+
+}
+.border1{
+    box-sizing: border-box; 
+    border: 2px solid rgb(0, 255, 250);
+}
+
+.decorate{
+    border-radius: 100%;
+    background: #d6d6d6;
+    box-shadow:  5px 5px 10px #808080, 
+                -5px -5px 10px #f6f6f6;
+}
+
+.title{
+    position:absolute;
+    font-family: 'century gothic';
+    color: #fff;
+    font-weight: 550;
+    margin-left:160px;
+    margin-top:50px;
+   
+}
+ #poster-shadow{
+/*    margin-top: -6em;
+    box-shadow: 1px -1px 10px;
+}
+
+.forborder{
+    /* background-image: url(posters/Koala.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    position: absolute;
+    overflow: hidden;
+    margin-top: 0px;
+    padding-top:0px;
+    background-color: grey;
+    width: 100%;
+    height: 50%;
+    /* -webkit-filter: blur(5px);
+    
+
+}
+/*
+.play-list{
+    /* margin-left: -2em; 
+    position: absolute;
+    background-color: firebrick;
+    margin-top: -5em;
+    cursor: pointer;
+    
+}
+*/
+/*
+.song-menu{
+position:absolute;
+margin-top: -6.12em;
+width: 33%;
+height: 7em;
+overflow: auto;
+background-color: rgb(41, 40, 42);
+margin-left: 0px;
+padding-left: 10px;
+color:#ffffff;
+font-size: 15px;
+font-family: "century gothic";
+}
+
+
+*/
